@@ -1,0 +1,44 @@
+---
+---
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{{ page.title }}</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta content="Nettle" property="og:title" />
+  <meta content="My personal page 🌿" property="og:description" />
+  <meta content="{{ absolute_url }}" property="og:url" />
+  <meta content="{{ 'assets/SCrainbow.gif' | absolute_url }}" property="og:image" />
+  <meta content="#88a081" data-react-helmet="true" name="theme-color" />
+  <script src="{{ 'scripts/script.js' | relative_url}}"></script>
+  <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Delius&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <script>0 // avoids some css not loading in time smth smth im no FE</script>
+</head>
+
+<body>
+  <div class="content">
+    <nav class="navbar">
+      <h1>i'm nettle 🌿</h1>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a class="disabled" onclick="alert('soon™️')">Blog</a></li>
+        <li><a href="/projects">Projects</a></li>
+      </ul>
+    </nav>
+
+    {{ content }}
+
+    <div class="footer">
+      made with tears and love ✨
+    </div>
+  </div>
+</body>
+
+</html>

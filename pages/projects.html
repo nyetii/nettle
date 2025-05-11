@@ -1,0 +1,34 @@
+---
+title: Projects
+layout: default
+permalink: /projects
+---
+<h1>Projects</h1>
+<p style="text-align: center;">Only personal and college projects are listed.</p>
+<div class="project-cards-container">
+  {% for project in site.data.projects %}
+  <div class="project-card text-info project-info">
+    <div class="headline">
+      <h2>{{ project.name }} ({{ project.year }})</h2>
+      <div class="info-icons">
+        {% if project.url %}
+        <a href="{{ project.url }}" target="_blank"><img class="sns-icon"
+            style="width: 24px; height: 24px; padding: 0 0.5rem 0 0.5rem" src="assets/icons/github.svg" /></a>
+        {% endif %}
+        <img class="sns-icon" style="width: 24px; height: 24px; padding: 0; margin-left: auto;" src="assets/icons/expand.svg"
+          onclick="expand(this?.parentElement?.parentElement?.parentElement)" id="expand" />
+      </div>
+    </div>
+    <p>{{ project.description }}</p>
+    <hr class="divider collapsable hidden" />
+    <div class="collapsable hidden">
+      {% for detail in project.details %}
+      <p>{{ detail}}</p>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<link rel="stylesheet" href="assets/css/projects/projects.css"/>
+<script src="scripts/projects.js"></script>

@@ -1,2 +1,6 @@
-@import url('desktop.css') screen and (width >= 768px);
+@import url('desktop.css') screen and (width >=768px);
 @import url('mobile.css') screen and (width < 768px);
+
+.hidden {
+  display: none;
+}

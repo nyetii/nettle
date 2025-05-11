@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Kimi",
+    "year": "2025",
+    "description": "Discord scoreboard bot using C# and SQLite",
+    "url": "https://github.com/nyetii/Kimi-Bot",
+    "details": [
+      "It maintains a scoreboard with a daily record for each member of the server who's talked. When the member reaches a certain score on the interval of a month, they will gain a level up role. Likewise, if they're below that score on the same interval, their level is revoked.",
+      "Additionally it contains a birthday and role selection system."
+    ]
+  },
+  {
+    "name": "Robô diferencial",
+    "year": "2024",
+    "description": "College physics class project (portuguese)",
+    "details": [
+      "A simple game that simulates the movement where each wheel accelerates independently, based on the instructions provided by the professor."
+    ]
+  },
+  {
+    "name": "Magic Trick",
+    "year": "2024",
+    "description": "College project using WinForms as an interface to an online game",
+    "details": [
+      "After the GUI was finished with the lobby and the match itself, a bot was created to play for a competition."
+    ]
+  },
+  {
+    "name": "Chrono Allegro",
+    "year": "2023",
+    "description": "College game project in C (portuguese)",
+    "url": "https://github.com/nyetii/ChronoAllegro",
+    "details": [
+      "Arguably the lowest quality project. It's a game using the Allegro library in the C language, meant for messing around with memory management (pointers) and data structures."
+    ]
+  },
+  {
+    "name": "Selc",
+    "year": "2023",
+    "description": "Weather app with arduino integration made in Swift",
+    "details": [
+      "For an extracurricular project in college. In a group of four people, we made a weather application using SwiftUI that scrapped weather data from your location and climatic news.",
+      "Moreover, we made an arduino circuit which provided from the temperature, humidity and air pressure from your place to the app via the sensors."
+    ]
+  },
+  {
+    "name": "Milkshake.NET",
+    "year": "2023",
+    "url": "https://github.com/nyetii/Milkshake.NET",
+    "description": "Shitpost generation API",
+    "details": [
+      "Made a simple game that simulates the movement where each wheel accelerates independently, based on the instructions provided by the professor."
+    ]
+  }
+]

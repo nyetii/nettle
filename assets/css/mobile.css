@@ -146,26 +146,26 @@ h1 {
     margin: 0;
 }
 
-#info {
+.info {
     max-width: calc(50% - 40px);
     flex-direction: column;
     align-self: center;
     border: 2px dashed #b0aeb0;
 }
 
-#info2 {
+.text-info {
     flex-direction: column;
     align-self: center;
     border: 2px dashed #b0aeb0;
 }
 
-#info h2,
-#info2 h2 {
+.info h2,
+.text-info h2 {
     margin: 0;
 }
 
-#info p,
-#info2 h2 {
+.info p,
+.text-info h2 {
     margin: 0;
 }
 
