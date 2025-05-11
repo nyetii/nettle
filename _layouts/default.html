@@ -13,6 +13,7 @@
   <meta content="{{ 'assets/SCrainbow.gif' | absolute_url }}" property="og:image" />
   <meta content="#88a081" data-react-helmet="true" name="theme-color" />
   <script src="{{ 'scripts/script.js' | relative_url}}"></script>
+  <link rel="icon" type="image/x-icon" href="{{ 'favicon.ico' | relative_url }}" />
   <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,9 +28,9 @@
     <nav class="navbar">
       <h1>i'm nettle 🌿</h1>
       <ul>
-        <li><a href="/">Home</a></li>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
         <li><a class="disabled" onclick="alert('soon™️')">Blog</a></li>
-        <li><a href="/projects">Projects</a></li>
+        <li><a href="{{ '/projects' | relative_url }}">Projects</a></li>
       </ul>
     </nav>
 
