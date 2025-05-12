@@ -144,7 +144,7 @@ h1 {
 }
 
 .info, .text-info {
-  max-width: calc(50% - 50px);
+  max-width: calc(70% - 50px);
   flex-direction: column;
   align-self: center;
   border: 2px dashed #b0aeb0;

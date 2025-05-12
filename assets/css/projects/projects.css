@@ -24,7 +24,7 @@
     display: inline-block;
     overflow-wrap: anywhere;
     max-width: calc(100% - 40px);
-    margin: 15px 0 15px 0;
+    margin: 15px 0 0 0;
     background-color: #f9f5f0;
     padding: 20px;
     border-radius: 15px;
