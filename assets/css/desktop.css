@@ -197,13 +197,18 @@ h1 {
 .sns-icon {
   width: 48px;
   height: 48px;
+  background-size: 48px 48px;
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 0 0.5rem 0 0.5rem;
   cursor: pointer;
+  user-select: none;
 }
 
 .sns-icon:hover {
   filter: invert(38%) sepia(11%) saturate(670%) hue-rotate(62deg) brightness(90%) contrast(89%);
   transition: all 0.2s ease;
+  user-select: none;
 }
 
 textarea,
